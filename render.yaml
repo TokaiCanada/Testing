@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: my-web-app
-    env: node
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /
-    httpPort: 3000
